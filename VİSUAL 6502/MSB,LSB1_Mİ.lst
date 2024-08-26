@@ -1,0 +1,15 @@
+
+0200: A0 00		LDY #$00         
+0202: A2 05		LDX #$05         
+0204: B5 1F		LDA $1F,X        
+0206: 30 04		BMI 04           
+0208: CA 		DEX              
+0209: D0 F9		BNE F9           
+020B: 00 		BRK              
+020C: 6A 		ROR              
+020D: 90 01		BCC 01           
+020F: C8 		INY              
+0210: CA 		DEX              
+0211: D0 F1		BNE F1           
+0213: 00 		BRK              
+                  
